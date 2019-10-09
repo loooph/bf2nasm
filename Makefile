@@ -1,6 +1,6 @@
 CC = musl-gcc
 LD = $(CC)
-CFLAGS = -Wextra -Wall -g -Os
+CFLAGS = -Wextra -Wall -Os
 LDFLAGS = -s -static
 
 
