@@ -43,7 +43,6 @@ main(void)
             printf("\tcmp BYTE [ebx], 0\n\tje end_%lu_%lu\nstart_%lu_%lu:\n", linear_count[nested_count],
                     nested_count, linear_count[nested_count], nested_count);
             ++nested_count;
-            linear_count[nested_count] = 0;
             break;
         case ']':
             --nested_count;
